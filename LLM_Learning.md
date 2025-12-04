@@ -1,11 +1,11 @@
 ### Chapter One
-**NLP**: Natural Language Processing
-**CWS**: Chinese Word Segmentation
-**POS Tagging**: Part-Of-Speech Tagging 词性标注
-**NER**: Name Entity Recognition 实体识别
-**Text Summarization**: 文本识别
-**MT**: Machine Translation 机器翻译
-**VSM**: Vector Space Model 向量空间模型
+**NLP**: Natural Language Processing  
+**CWS**: Chinese Word Segmentation  
+**POS Tagging**: Part-Of-Speech Tagging 词性标注  
+**NER**: Name Entity Recognition 实体识别  
+**Text Summarization**: 文本识别  
+**MT**: Machine Translation 机器翻译  
+**VSM**: Vector Space Model 向量空间模型  
 **N-gram**: a model to estimate the probability of the nth word based on the former (n-1)th words
 **Word2Vec**: one of the Word Embedding technologies
 `    `**CBOW**: Continuous Bag of Words, estimate the most possible words based on the VSM of	words above and below
@@ -60,7 +60,7 @@ $$
 {
     x = q K^T \Rightarrow softmax(x)_i = \frac {e^{x_i}} {\sum_j e^{x_j}}
 }
-$$
+$$  
 ` `Thus the total formula for **Attention Mechanism** is:
 $$
 1.\ One\ query: \ \ attention(q,K,v)=softmax(qK^T)v\\
